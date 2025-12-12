@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const API = "http://localhost:3001";
+  const API = "https://expense-tracker-9ahm.onrender.com";
 
   const token = localStorage.getItem("token");
   if (!token) navigate("/login");
