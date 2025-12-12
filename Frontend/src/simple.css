@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+.link {
+  width: 100%;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.logout {
+  background: red;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-item {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
