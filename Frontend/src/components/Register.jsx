@@ -2,10 +2,10 @@ import { useState } from "react";
 import { TextField, Button, Card, CardContent, Typography } from "@mui/material";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import {API} from "../env";
 export default function Register() {
   const navigate = useNavigate();
-  const API = "http://localhost:3001";
+  const API = "https://expense-tracker-9ahm.onrender.com";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

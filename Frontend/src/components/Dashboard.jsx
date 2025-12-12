@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { Button, TextField, Card, Typography } from "@mui/material";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import {API } from '../env';
 export default function Dashboard() {
   const navigate = useNavigate();
-  const API = "http://localhost:3001";
+  
 
   const token = localStorage.getItem("token");
   if (!token) navigate("/login");
