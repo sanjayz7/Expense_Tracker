@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Register() {
   const navigate = useNavigate();
-  const API = "http://localhost:3001";
+  const API = "https://expense-tracker-9ahm.onrender.com";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
