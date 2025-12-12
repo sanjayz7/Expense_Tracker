@@ -5,7 +5,11 @@ import { useNavigate } from "react-router-dom";
 import {API } from '../env';
 export default function Dashboard() {
   const navigate = useNavigate();
+<<<<<<< HEAD
   
+=======
+  const API = "https://expense-tracker-9ahm.onrender.com";
+>>>>>>> da47227577634385b192c875ed4c6d8e2ac44aa9
 
   const token = localStorage.getItem("token");
   if (!token) navigate("/login");
